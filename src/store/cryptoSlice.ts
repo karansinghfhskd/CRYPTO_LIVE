@@ -28,7 +28,7 @@ const initialState: CryptoState = {
     {
       id: 'bitcoin',
       rank: 1,
-      logo: 'https://cryptologos.cc/logos/bitcoin-btc-logo.png',
+      logo: '/logos/bitcoin.png',
       name: 'Bitcoin',
       symbol: 'BTC',
       price: 60342.48,
@@ -44,7 +44,7 @@ const initialState: CryptoState = {
     {
       id: 'ethereum',
       rank: 2,
-      logo: 'https://cryptologos.cc/logos/ethereum-eth-logo.png',
+      logo: '/logos/ethereum.png',
       name: 'Ethereum',
       symbol: 'ETH',
       price: 3224.16,
@@ -60,7 +60,7 @@ const initialState: CryptoState = {
     {
       id: 'tether',
       rank: 3,
-      logo: 'https://cryptologos.cc/logos/tether-usdt-logo.png',
+      logo: '/logos/tether.png',
       name: 'Tether',
       symbol: 'USDT',
       price: 1.00,
@@ -76,7 +76,7 @@ const initialState: CryptoState = {
     {
       id: 'bnb',
       rank: 4,
-      logo: 'https://cryptologos.cc/logos/bnb-bnb-logo.png',
+      logo: '/logos/bnb.png',
       name: 'BNB',
       symbol: 'BNB',
       price: 608.74,
@@ -92,7 +92,7 @@ const initialState: CryptoState = {
     {
       id: 'solana',
       rank: 5,
-      logo: 'https://cryptologos.cc/logos/solana-sol-logo.png',
+      logo: '/logos/solana.png',
       name: 'Solana',
       symbol: 'SOL',
       price: 142.87,

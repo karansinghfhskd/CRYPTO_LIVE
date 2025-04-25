@@ -289,6 +289,9 @@ body {
   width: 24px;
   height: 24px;
   border-radius: 50%;
+  object-fit: contain;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1px;
 }
 
 .asset-name-text {
@@ -350,6 +353,32 @@ body {
 .mini-chart {
   height: 40px;
   width: 100%;
+  position: relative;
+}
+
+.mini-chart-logo-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  background-color: rgba(22, 26, 41, 0.8);
+  border-radius: 50%;
+  padding: 3px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.mini-chart-logo {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: contain;
+  opacity: 1;
 }
 
 /* Data source note */

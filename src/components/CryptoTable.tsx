@@ -84,6 +84,7 @@ const CryptoTable: React.FC = () => {
                 <MiniChart 
                   data={asset.chartData} 
                   color={asset.priceChange7d >= 0 ? '#16c784' : '#ea3943'} 
+                  logoUrl={asset.logo}
                 />
               </td>
             </tr>
