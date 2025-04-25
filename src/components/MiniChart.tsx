@@ -17,6 +17,7 @@ const MiniChart: React.FC<MiniChartProps> = ({ data, color = '#8884d8' }) => {
     }));
   }, [data]);
   
+  
   // Determine if the trend is positive or negative
   const trend = data[data.length - 1] > data[0] ? 'up' : 'down';
   const chartColor = color || (trend === 'up' ? '#16c784' : '#ea3943');
